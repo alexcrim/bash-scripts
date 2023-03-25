@@ -14,6 +14,7 @@ kubectl create secret docker-registry regcred \
 echo -ne "\033[1;33mСоздание Secret для загрузки образов\033[0m ... \033[1;32mDone\033[0m\r"
 echo -ne "\n"
 
+
 echo -e "\033[1;33mВведите путь к pfx сертификату\033[0m\r"
 read path
 echo -ne "\033[1;33mСоздание Secret для pfx сертификата\033[0m ... \r"
